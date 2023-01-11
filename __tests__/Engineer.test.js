@@ -1,8 +1,8 @@
 const Engineer = require('../lib/Engineer');
+const engineer = new Engineer('Kim', '22', 'kimwolt@gmail.com', 'githubuser');
 
 describe ('Engineer Class', () => {
     it('gets constructor values for engineer class', () => {
-        const engineer = new Engineer('Kim', '22', 'kimwolt@gmail.com', 'githubuser');
         expect(engineer.name).toBe('Kim');
         expect(engineer.id).toBe('22');
         expect(engineer.email).toBe('kimwolt@gmail.com');

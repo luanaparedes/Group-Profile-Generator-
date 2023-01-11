@@ -1,8 +1,8 @@
 const Intern = require('../lib/Intern');
+const intern = new Intern('Kim', '22', 'kimwolt@gmail.com', 'RVCC');
 
 describe ('Intern Class', () => {
     it('gets constructor values for intern class', () => {
-        const intern = new Intern('Kim', '22', 'kimwolt@gmail.com', 'RVCC');
         expect(intern.name).toBe('Kim');
         expect(intern.id).toBe('22');
         expect(intern.email).toBe('kimwolt@gmail.com');

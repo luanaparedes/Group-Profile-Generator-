@@ -1,0 +1,32 @@
+header {
+    background-color: #D2B48C;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+.card {
+    width: 250px;
+}
+
+.card h1 {
+    font-size: 25px;
+    background-color: #f5d5a1;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 17px;
+    background-color: #f5d5a1;
+    padding-left: 8px;
+}
+
+.card-container {
+    padding: 8px;
+}
