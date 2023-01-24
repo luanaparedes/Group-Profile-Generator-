@@ -6,7 +6,7 @@ The Group Profile Generator makes team builing easy for managers or team leaders
 
 ## Installation
 
-To install or deploy first answer all command line answers and an HTML of team profiles will be generated!
+To install or deploy first answer all command line answers and an HTML of team profiles will be generated! Here is a video demonstrating how to answer the command line and creating your team: ![DEMO](./Assets/images/GROUP-PROFILE-GEN-DEMO.webm)
 
 ## Usage
 
