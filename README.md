@@ -6,7 +6,7 @@ The Group Profile Generator makes team builing easy for managers or team leaders
 
 ## Installation
 
-To install or deploy my portfolio webpage click [this link](ADD LINK)!
+To install or deploy first answer all command line answers and an HTML of team profiles will be generated!
 
 ## Usage
 
@@ -14,8 +14,9 @@ Once the team is built the app creates personalized cards for each members infor
 ![webpage image](ADD LINK)
 
 
-
 ## Credits
 
-
+https://www.browserstack.com/guide/unit-testing-in-javascript
+https://www.geeksforgeeks.org/node-js-fs-writefilesync-method/
+https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts
 
