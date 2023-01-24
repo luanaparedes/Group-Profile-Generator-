@@ -1,6 +1,6 @@
 const Manager = require('../lib/Manager');
 const manager = new Manager('Kim', '22', 'kimwolt@gmail.com', '505');
-
+//manager test
 describe ('Manager Class', () => {
     it('gets constructor values for maganer class', () => {
         expect(manager.name).toBe('Kim');
