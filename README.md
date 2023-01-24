@@ -11,7 +11,7 @@ To install or deploy first answer all command line answers and an HTML of team p
 ## Usage
 
 Once the team is built the app creates personalized cards for each members information.
-![webpage image](ADD LINK)
+![webpage image](./Assets/images/Group-Profile-Generator-screenshot.png)
 
 
 ## Credits
