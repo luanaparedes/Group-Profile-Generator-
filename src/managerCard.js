@@ -1,3 +1,4 @@
+//manager card html
 function managerCard(manager) {
     return `<div class="card">
     <h1>${manager.name}</h1>

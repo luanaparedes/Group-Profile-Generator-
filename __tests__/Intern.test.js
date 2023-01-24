@@ -1,6 +1,6 @@
 const Intern = require('../lib/Intern');
 const intern = new Intern('Kim', '22', 'kimwolt@gmail.com', 'RVCC');
-
+//intern test
 describe ('Intern Class', () => {
     it('gets constructor values for intern class', () => {
         expect(intern.name).toBe('Kim');
