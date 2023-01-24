@@ -88,7 +88,7 @@ const engineerPrompt = () => {
         {
             type: 'input',
             name: 'name',
-            message: 'Please enter team-mate name.',
+            message: 'Enter your team-mates name.',
             validate: inputName => {
                 if (inputName) {
                     return true;
@@ -102,7 +102,7 @@ const engineerPrompt = () => {
         {
             type: 'input',
             name: 'id',
-            message: 'Please enter your team-mates employee ID?',
+            message: 'Enter your team-mates employee ID?',
             validate: inputId => {
                 if (inputId) {
                     return true;
@@ -116,7 +116,7 @@ const engineerPrompt = () => {
         {
             type: 'input',
             name: 'email',
-            message: 'Please enter your team-mates email address',
+            message: 'Enter your team-mates email address',
             validate: inputEmail => {
                 if (inputEmail) {
                     return true;
@@ -130,7 +130,7 @@ const engineerPrompt = () => {
         {
             type: 'input',
             name: 'github',
-            message: 'Please enter your team-mates github user',
+            message: 'Enter your team-mates github user',
             validate: inputGithub => {
                 if (inputGithub) {
                     return true;
@@ -160,7 +160,7 @@ const internPrompt = () => {
         {
         type: 'input',
         name: 'name',
-        message: 'Please enter team-mate name.',
+        message: 'Enter yor team-mates name.',
         validate: inputName => {
             if (inputName) {
                 return true;
@@ -174,7 +174,7 @@ const internPrompt = () => {
     {
         type: 'input',
         name: 'id',
-        message: 'Please enter your team-mates employee ID?',
+        message: 'Enter your team-mates employee ID?',
         validate: inputId => {
             if (inputId) {
                 return true;
@@ -188,7 +188,7 @@ const internPrompt = () => {
     {
         type: 'input',
         name: 'email',
-        message: 'Please enter your team-mates email address',
+        message: 'Enter your team-mates email address',
         validate: inputEmail => {
             if (inputEmail) {
                 return true;
@@ -202,7 +202,7 @@ const internPrompt = () => {
     {
         type: 'input',
         name: 'school',
-        message: 'Please enter your team-mates school',
+        message: 'Enter your team-mates school',
         validate: inputSchool => {
             if (inputSchool) {
                 return true;
@@ -230,7 +230,7 @@ function mainMenu() {
 
     return inquirer.prompt([{
         type: 'list',
-        message: 'Do you want to add a new team member?',
+        message: 'Build your team...',
         name: 'mainMenu',
         choices: [
             'Add Engineer',
