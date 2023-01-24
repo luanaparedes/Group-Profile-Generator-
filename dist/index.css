@@ -7,12 +7,10 @@ header {
     font-size: 25px;
 }
 
-li {
-    list-style: none;
-}
-
 .card {
+    margin: 10px;
     width: 250px;
+    display: inline-block;
 }
 
 .card h1 {
